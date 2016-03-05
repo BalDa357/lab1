@@ -1,0 +1,156 @@
+#container {
+		width: 800px;
+		margin:auto;
+		background-color: white;
+}
+
+#nav {
+	height: 70px;
+	padding-right: 20px;
+	background-color: #CA0606;
+	text-align: center;
+	float: right;
+}
+
+#header{
+	height: 70px;
+	padding: 0px 10px 0px 10px;
+	background-color: #CA0606;
+}
+
+#pic{
+	width: 140px;
+	height: 70px;
+	background-image: url(../pictures/city.jpg);
+	background-size:cover;
+	background-size: 100% 100%;
+	margin-left: 20px;
+}
+
+#nav ul li {
+	text-transform: uppercase;
+	font-family: serif;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: #D2BEBE;
+	font-size: 90%;
+}
+
+#nav ul li a div:not(#pressed){
+	height: 42px;
+	margin: -16px 0px 10px 10px;
+	padding: 25px 10px 0px 10px;
+	box-shadow: 3px 1px 10px #7D0707; 
+}
+#sidebar{
+	margin: 10px 30px 10px 10px;
+}
+
+.used li {
+	margin: 10px 20px 20px 10px;
+	padding: 10px 10px 10px 0px;
+}
+.work ul li {
+	margin: 10px 0px 0px -20px;
+	padding: 10px 10px 10px 10px;
+	background-color: #F5F6CE;
+}
+
+
+
+#pressed{
+	background-color: #B80A0A;
+	color: white;
+	height: 42px;
+	margin: -16px -2px 10px 10px;
+	padding: 25px 10px 0px 10px;
+	box-shadow:  inset 3px 1px 10px #7D0707; 
+}
+
+#nav ul li a div:hover{
+	background-color: #B80A0A;
+	color: white;
+	text-shadow: 1px 1px 5px white;
+}
+
+#nav ul li a div:active{
+	background-color: #B80A0A;
+	color: white;
+	margin-right: -2px;
+	margin-left: 12px;
+	box-shadow:  inset 3px 1px 10px #7D0707; 
+}
+
+#footer{
+	width: 800px;
+	height: 200px;
+	text-align: center;
+	background-image: url(../pictures/mm.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	color: red;
+	background-position: fixed-bottom;
+	background-size: 100% 100%;
+}
+
+#footer ul li{
+	margin: 165px 10px 0px 10px;
+	font-family: cursive;
+	display: inline-block;
+	list-style-type: none;
+}
+
+#sidebar ul li{
+	list-style-type: none;
+}
+
+#lab{
+	width: 100px;
+	height:100px;
+	margin-right: 150px;
+	background-size: 100% 100%;
+	background-image: url(../pictures/lab.bmp);
+	float: right;
+}
+
+#kurs{
+	width: 100px;
+	height:100px;
+	margin-right: 150px;
+	background-size: 100% 100%;
+	background-image: url(../pictures/kurs.bmp);
+	float: right;
+}
+
+#footer ul li a{
+	text-decoration: none;
+	color: red;
+}
+
+#footer ul li a:hover{
+	color: #B80A0A;
+}
+
+#content{
+	margin: 100px 10px 10px 20px;
+}
+
+#photo{
+	width: 140px;
+	height: 200px;
+	float: left;
+	background-image: url(../pictures/me.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+html,body {
+	font-family: cursive, arial	;
+	background-color: #DADADA;
+	margin: 0;
+	padding: 0;
+}
